@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Unica One';
+}
+
+@font-face {
+  font-family: 'Poiret One';
+}
+
+body {
+  max-width: 1200px;
+  height: 700px;
+  margin: auto;
+  margin-top: 0;
+
+}
+
+.container {
+  height: 700px;
+  width: 1200px;
+  background-color: $background-color;
+
+  @include notebook {
+    width: 100%;
+  }
+}
+
+.btn {
+  font-family: 'Unica One';
+  color: $btn-color;
+  background: $btn-background;
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: white;
+  transform: scale(1.2);
+}

@@ -1,0 +1,67 @@
+.description__container{}
+
+.description__container_list {
+  padding: 30px;
+  max-width: 1100px;
+  overflow: auto;
+  height: 450px;
+}
+
+.description__container-image{
+  height: 190px;
+  width: 190px;
+  margin: 10px;
+  transition: 0.5s;
+}
+.description__container-image:hover{
+  transform: scale(1.25);
+  border-radius: 50%;
+}
+
+.description__container_header {
+  padding: 30px;
+}
+.select {
+  font-family: 'Unica One';
+  color: #706d6d;
+  background: #7d9477;
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  width: 200px;
+}
+
+.description__container_descripcion {
+  padding: 40px 40px;
+}
+
+.description__castle{
+  width: 1100px;
+  height: 600px;
+  background-color: rgba(159, 152, 152, 0.5);
+  border: 1px #000000;
+}
+
+.description__castle-image {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.description__castle-title{
+  font-family: 'Unica One';
+  font-size: 45px;
+  color: #393939;
+  margin-top: 40px;
+}
+
+.description__span {
+  font-family: 'Unica One';
+  font-size: 30px;
+  color: #393939;
+}
+h1{
+  font-family: 'Poiret One';
+}

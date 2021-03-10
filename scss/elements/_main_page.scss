@@ -1,0 +1,71 @@
+.main__container {
+  background-image: url("../images/tytulowa.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main__header {}
+
+.main__title {
+  font-size: 90px;
+  color: $title-color;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: $font-Unica;
+  letter-spacing: 10px;
+}
+
+.main__buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+
+@keyframes window-off {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background: #222222;
+  }
+}
+.window{
+
+  background: yellow;
+  animation: window-off 1s ease-in infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+}
+
+.window1 {
+  margin-left: 308px;
+  margin-top: 98px;
+  width: 12px;
+  height: 14px;
+}
+
+.window2 {
+  height: 35px;
+  width: 24px;
+  margin-left: 874px;
+  margin-top: 197px;
+}
+
+#city{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $btn_background;
+  max-width: 75px;
+  margin-left: 5px;
+}
+
+#temp{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: $font-Poiret;
+  background-color: $btn_background;
+  max-width: 75px;
+  margin-left: 5px;
+}

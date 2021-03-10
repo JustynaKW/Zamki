@@ -1,0 +1,82 @@
+.castle_list__container{
+  padding: 30px;
+}
+
+.castle_list__header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.castle_list__title{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-family: $font-Unica;
+}
+
+.castle_list__button:hover{
+  transform: none;
+}
+
+.castle_list__table{}
+
+.castle_list__tablenav{
+  font-family: $font-Unica;
+  border: black 1px solid;
+}
+
+td{
+  border: black 1px dotted;
+  padding: 10px;
+}
+
+.castle_add{
+  padding: 30px;
+}
+
+.add{
+  border: $title-color 1px dotted;
+  padding: 5px;
+}
+
+.add-all{}
+
+.add-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-title{
+  font-family: $font-Unica;
+  font-size: 35px;
+}
+
+.add-exit:hover{
+  transform: none;
+}
+
+.add-minititle{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.add-h1{
+  font-size: 1.5rem;
+  width: 30%;
+}
+
+.add-input-one{
+  width: 70%;
+  height: 35px;
+}
+
+.add-input-two{
+  width: 70%;
+  height: 35px;
+}
+
+.add-input-three{
+  width: 70%;
+  min-height: 70px;
+}
