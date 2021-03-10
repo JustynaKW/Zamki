@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zamki</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <section class="list__container container">
+        <div class="castle_list__container">
+            <div class="castle_list__header">
+                <h1 class="castle_list__title">Odwiedzone zamki</h1>
+                <button class="castle_list__button btn" id="add_btn"><i class="fab fa-fort-awesome"></i></button>
+            </div>
+            <div class="castle_list__table">
+                <table>
+                    <tbody>
+                    <tr class="castle_list__tablenav">
+                        <td>ID</td>
+                        <td>ZAMEK</td>
+                        <td>KIEDY ODWIEDZONY</td>
+                        <td>UWAGI</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="castle_add" id="castle_add">
+            <form class="add">
+                <div class="add-all">
+                    <div class="add-top">
+                        <div class="add-title">Odwiedzony Zamek</div>
+                        <button class="add_exit btn" id="add_exit">Zapisz</button>
+                    </div>
+                    <div class="add-minititle">
+                        <h1 class="add-h1">Nazwa Zamku</h1>
+                        <input class="add-input-one" type="text" id="nazwa_text" name="nazwa"
+                               placeholder="Wpisz nazwę zamku">
+                    </div>
+
+                    <div class="add-minititle">
+                        <h1 class="add-h1">Kiedy odwiedzony</h1>
+                        <input class="add-input-two" type="date" name="nazwa" placeholder="Wpisz datę">
+                    </div>
+
+                    <div class="add-minititle">
+                        <h1 class="add-h1">Uwagi</h1>
+                        <input class="add-input-three" type="text" name="nazwa" placeholder="Wpisz uwagi">
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a class="btn return-btn" href="index.html"><i class="fas fa-arrow-left"></i></a>
+    </section>
+<script src="js/list.js" />
+</body>
+</html>
